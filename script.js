@@ -17,7 +17,7 @@ function hingherNumber(num1, num2, num3) {
 }
 
 //ESCUTADOR DE EVENTOS
-button.addEventListner("click", () => hingherNumber (firstNumber.valueAsNumber.secondNumber.valueAsNumber.thirdNumber.valueAsNumber));
+button.addEventListener("click", () => hingherNumber (firstNumber.valueAsNumber, secondNumber.valueAsNumber, thirdNumber.valueAsNumber));
 
 
 
